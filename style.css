@@ -1,0 +1,225 @@
+body{font-family: 'Roboto', sans-serif;
+color: #263238 !important;
+}
+header .navbar{
+    padding-right: 0;
+    padding-left: 0;
+}
+header .nav-link {
+    padding: 0.5rem 25px !important;
+    color: #1F2E35CC !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footersection h4 {
+    font-size: 24px;
+    padding-bottom: 14px;
+}
+.footersection.contact{
+    margin-left: -20px;
+}
+a{
+    color: #263238 !important;
+}
+.nav-link.links{
+    padding: 0.5rem 16px !important;
+}
+header{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.dropdown-toggle::before {
+    background-image: url(./img/chevron_down.png);
+    position: absolute;
+    content: "";
+    top: 18px;
+    right: 8px;
+    width: 13px;
+    height: 9px;
+}
+.dropdown-toggle::after {
+   display: none;
+}
+button{
+    background-color:#EE4248;
+    border:none;
+    color: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    padding: 10px 14px;
+    border-radius: 4px;
+    width: 119px;
+height: 42px;
+}
+span{
+    color: #EE4248;
+}
+.first-section {
+    padding: 40px 5px 50px;
+}
+.first-section img{
+    padding-top: 59px;
+}
+.first-section h3{
+    padding-top: 70px;
+    font-size:   48px;
+}
+.first-section p{
+    padding-top: 20px;
+    font-size: 18px;
+}
+.first-section h3 span{
+    padding-bottom: 24px;
+}
+.first-section h3 {
+    font-weight: 600;
+    color: #1F2E35;
+}
+.first-section button{
+    background-color:#EE4248;
+    border:none;
+    color: #fff;
+    width: 161px;
+    height: 53px;
+line-height: 29px;
+
+}
+.second-section{
+    background-color: #F6F6F6;
+    padding-bottom: 40px;
+}
+.second-section p{
+    font-size: 18px;
+    Line-height:27px;
+}
+.second-section h3{
+    font-weight: 500;
+    padding-top: 60px;
+    font-size: 32px;
+}
+.third-section {
+    padding-top: 120px;
+}
+.third-section h4{
+        text-align: center;
+        font-weight: 500;
+     color: #1F2E35;
+        font-size: 32px;
+        padding-bottom: 30px;
+ }
+ .third-section h3 {
+    font-weight: 500;
+    font-size: 28px;
+    padding-top: 10px;
+ }
+
+ .third-section p {
+    padding: 2px 34px 0 0;
+font-weight: 400;
+font-size: 18px
+}
+.footer-section{
+    padding-top: 150px;
+}
+
+.Copyright p{
+    font-size: 18px;
+    padding: 18px 15px;
+}
+.footersection h5 {
+    font-size: 18px;
+}
+.Copyright{
+    background-color: #EE4248;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    height: 64px;
+line-height: 21px;
+margin-top: 20px;
+}
+.footersection.img{
+    padding-top: 40px;
+}
+.second-section p{
+    padding-top:20px;
+}
+.footer-section p {
+    margin-bottom: 4px;}
+    .footersection p{
+        Weight:300;
+        font-size: 18px;
+    }
+    @media screen and (max-width: 991px) {
+        .footersection.contact{
+            margin-left: 0px;
+        }
+        .second-section h3{
+            text-align: center;
+        }
+        .navbar-light .navbar-toggler-icon {
+            background-image: url(./img/text_align_right.png) !important;
+        }
+        .navbar-toggler {
+            background-color: transparent !important;
+            box-shadow: none !important;
+            border: none !important;
+        }
+
+    }
+    
+@media screen and (min-device-width: 990px) and (max-device-width: 1600px) { 
+    .footer-section .container{
+        max-width: 1226px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .first-section {
+        padding: 16px 5px 50px;
+    }
+    .footer-section {
+        padding-top: 47px;
+    }
+    .third-section h4 {
+        padding-bottom: 0;
+    }
+    .Copyright p {padding: 18px 11px;}
+    .third-section p {
+        padding:  2px 4px ;
+    }
+    .second-section p{
+        padding-top:20px;
+    }
+    .first-section .row{
+        flex-direction: column-reverse;
+    }
+      
+    .navbar-toggler {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+.navbar-light .navbar-toggler-icon {
+    background-image: url(./img/text_align_right.png) !important;
+}
+.first-section{
+    text-align: center !important;
+}
+.first-section h3,.second-section h3{
+    font-size: 32px;
+}
+.first-section h3 span {
+    display: block;}
+ .third-section{
+    padding-top: 40px;
+        text-align: center !important;
+    }
+    .third-section-Service{
+        padding: 20px 15px;
+    }
+    .footersection{
+        padding: 15px 15px;
+    }
+    .footersection.img{
+        padding-top: 20px;
+    }
+}
